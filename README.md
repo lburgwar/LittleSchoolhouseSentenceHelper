@@ -1,4 +1,4 @@
-# LittleSchoolhouseSentenceHelper
+# The Little Schoolhouse Sentence Helper
 The Little Schoolhouse Sentence Helper puts a twist on an age old technique that language educators have used. In elementary school students are given work sheets that present a phrase followed by a blank line. The student is to then complete the sentence ensuring it makes sense and that the the result is a complete sentence. With the Little Schoolhouse Sentence Helper the student is allowed to create their own initial phrase and then see how the phrase is completed forming a complete sentence. This teaches the student what a complete sentence should look like and provides a model for the student to follow.
 Using the Little Schoolhouse Sentence Helper is very easy. Simply start the helper by entering the URL in a browser:
  https://lburgwar.shinyapps.io/shinyTextGenerator4/
