@@ -31,7 +31,7 @@ model$config$max_length = as.integer(50)
 ```
 
 The ui and server parts of the Shiny app are shwon below. This is a straight forward user interface with an input box and printout of the results. The server function "generate_text" takes in the starting phrase labeled as "prompt" and encodes it using the transformer tokenizer. This basically looks up each word in the starting phrase in the vocabulary and assigns it a number. The server function itself takes the list of encoded words and presents it to the renderText function. The result is then printed for display. 
-
+```{r, eval=FALSE}
 #Define UI
 ui <- fluidPage(
   titlePanel("The Little Schoolhouse Sentence Helper"),
@@ -61,7 +61,7 @@ server <- function(input, output) {
 
 # Create Shiny object
 shinyApp(ui = ui, server = server)
-
+```
 
 References
 [1] 
